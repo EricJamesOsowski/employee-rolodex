@@ -28,7 +28,7 @@ function Table() {
     {data.map((result, index) => {
      return  (
       <tr key={index}>
-        <td>{result.picture.thumbnail}</td>
+        <td><img src={result.picture.medium} /></td>
         <td>{result.name.first}</td>
         <td>{result.name.last}</td>
         <td>{result.cell}</td>
