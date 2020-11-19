@@ -1,9 +1,12 @@
-// import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Table from "./components/table";
 
 function App() {
+
   return (
+  <div>
   <Table />
+  </div>
   )
 }
 
